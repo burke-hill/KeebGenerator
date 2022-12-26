@@ -4,7 +4,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-public class Switch {
+public class Keycaps {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
@@ -13,7 +13,7 @@ public class Switch {
     private String color;
     private String material;
 
-    public Switch(String name, String color, String material) {
+    public Keycaps(String name, String color, String material) {
         this.name = name;
         this.color = color;
         this.material = material;
